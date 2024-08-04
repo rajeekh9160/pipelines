@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    docker { image 'php:8.2'}
+    docker { image 'php:8.1-alpine' }
   }
   stages {
     stage ('Test') {
